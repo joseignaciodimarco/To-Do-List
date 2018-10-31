@@ -114,7 +114,7 @@ function modificaTarea(){
 
 
 function cargaTareaCompletada(tareaPendiente){
-	var idTarea = tareaPendiente.closest('li').attr('id');
+	var idTarea = tareaPendiente.attr('id');
 	var objetoTarea = tareas[idTarea];
 	var $liTarea = $('.templateCompletadas').clone();
 	
